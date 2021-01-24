@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" style="-fx-background-color: aliceBlue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LoginController">
+    <children>
+        <Label fx:id="label" layoutX="91.0" layoutY="83.0" minHeight="16" minWidth="69" />
+      <Label fx:id="userNameLogInTxt" layoutX="37.0" layoutY="63.0" text="Username" />
+      <Label fx:id="passwordLogInTxt" layoutX="39.0" layoutY="102.0" text="Password" />
+      <TextField fx:id="usernameTxt" layoutX="126.0" layoutY="59.0" />
+      <PasswordField fx:id="passwordTxt" layoutX="126.0" layoutY="98.0" />
+      <Button fx:id="loginButton" layoutX="223.0" layoutY="149.0" mnemonicParsing="false" onAction="#loginButton" text="Log In" />
+      <Label fx:id="pleaseLogInTxt" layoutX="86.0" layoutY="14.0" prefHeight="35.0" prefWidth="149.0" text="Please Log In">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="682.0" style="-fx-background-color: aliceBlue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CustomerDeleteScreenController">
+   <children>
+      <Label layoutX="18.0" layoutY="14.0" text="Please Select A Customer To Delete">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="customerDeleteTable" layoutX="18.0" layoutY="41.0" prefHeight="428.0" prefWidth="646.0">
+        <columns>
+          <TableColumn fx:id="IdCol" prefWidth="56.0" text="I.D." />
+          <TableColumn fx:id="nameCol" prefWidth="97.0" text="Name" />
+            <TableColumn fx:id="phoneCol" prefWidth="96.0" text="Phone" />
+            <TableColumn fx:id="streetCol" prefWidth="99.0" text="Street" />
+            <TableColumn fx:id="cityCol" prefWidth="93.0" text="City" />
+            <TableColumn fx:id="countryCol" prefWidth="84.0" text="Country" />
+            <TableColumn fx:id="zipCol" prefWidth="65.0" text="Zip" />
+            <TableColumn fx:id="aciveCol" prefWidth="55.0" text="Active" />
+        </columns>
+      </TableView>
+      <Button fx:id="exitButton" layoutX="613.0" layoutY="491.0" mnemonicParsing="false" onAction="#exitProgram" prefWidth="51.0" text="Exit" />
+      <Button fx:id="backButton" layoutX="550.0" layoutY="491.0" mnemonicParsing="false" onAction="#goBackToMainScreen" prefWidth="51.0" text="Back" />
+      <Button fx:id="deleteButton" layoutX="489.0" layoutY="491.0" mnemonicParsing="false" onAction="#deleteCustomer" text="Delete" />
+   </children>
+</AnchorPane>

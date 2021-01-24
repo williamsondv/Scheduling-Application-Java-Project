@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/DeleteAppointmentScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/UserUpdateScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/AddAppointmentScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/DeleteAppointmentScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/AddCustomerScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/UpdateCustomerScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/AddUserController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/schedulingapplication/SchedulingApplication.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/CustomerDeleteScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/UpdateAppointmentScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/model/Appointment.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/CustomerDeleteScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/model/User.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/schedulingapplication/Properties_fr.properties</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/schedulingapplication/Properties_ru.properties</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/MainScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/UserDeleteScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/util/DBConnection.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/model/Customer.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/UserDeleteScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/AddCustomerScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/AddUser.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/MainScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/UpdateAppointmentScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/LoginController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/LogInScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/UpdateCustomerScreenController.java</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/AddAppointmentScreen.fxml</file>
+            <file>file:/C:/Users/willi/Documents/NetBeansProjects/SchedulingApplication/src/view/UserUpdateScreen.fxml</file>
+        </group>
+    </open-files>
+</project-private>

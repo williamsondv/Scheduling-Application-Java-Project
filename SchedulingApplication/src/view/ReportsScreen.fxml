@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="1754.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ReportsScreenController">
+   <children>
+      <ChoiceBox fx:id="monthsChoiceBox" layoutX="39.0" layoutY="53.0" prefWidth="150.0" />
+      <Label layoutX="39.0" layoutY="26.0" text="Select A Month for Number of Appointments by Month:" />
+      <TextField fx:id="numberOfAppointmentsByMonthTextField" layoutX="214.0" layoutY="53.0" />
+      <Label layoutX="594.0" layoutY="26.0" text="Select a Location for Number of Appointments by Location:" />
+      <ChoiceBox fx:id="locationChoiceBox" layoutX="594.0" layoutY="53.0" prefWidth="150.0" />
+      <TextField fx:id="appointmentsByLocationTextField" layoutX="767.0" layoutY="53.0" />
+      <TableView fx:id="consultantTableView" layoutX="40.0" layoutY="177.0" prefHeight="428.0" prefWidth="208.0">
+        <columns>
+          <TableColumn fx:id="consultantNameCol" prefWidth="118.0" text="Consultant Name" />
+          <TableColumn fx:id="consultantIdCol" prefWidth="89.0" text="Consultant I.D." />
+        </columns>
+      </TableView>
+      <Label layoutX="40.0" layoutY="151.0" text="Select a Consultant to Display Schedule: " />
+      <TableView fx:id="appointmentConsultantSchedule" layoutX="289.0" layoutY="177.0" prefHeight="428.0" prefWidth="1427.0">
+         <columns>
+            <TableColumn fx:id="IdCol" prefWidth="97.0" text="Appointment ID" />
+            <TableColumn fx:id="customerIdCol" prefWidth="77.0" text="Customer ID" />
+            <TableColumn fx:id="userIdCol" prefWidth="75.0" text="User ID" />
+            <TableColumn fx:id="titleCol" text="Title" />
+            <TableColumn fx:id="descriptionCol" prefWidth="168.0" text="Description" />
+            <TableColumn fx:id="locationCol" prefWidth="120.0" text="Location" />
+            <TableColumn fx:id="contactCol" prefWidth="160.0" text="Contact" />
+            <TableColumn fx:id="typeCol" text="Type" />
+            <TableColumn fx:id="urlCol" prefWidth="180.0" text="URL" />
+            <TableColumn fx:id="startCol" prefWidth="200.0" text="Start" />
+            <TableColumn fx:id="endCol" prefWidth="200.0" text="End" />
+         </columns>
+      </TableView>
+      <Button fx:id="exitButton" layoutX="1676.0" layoutY="625.0" mnemonicParsing="false" onAction="#exitProgram" prefWidth="50.0" text="Exit" />
+      <Button fx:id="backButton" layoutX="1605.0" layoutY="625.0" mnemonicParsing="false" onAction="#backToMainScreen" prefWidth="50.0" text="Back" />
+   </children>
+</AnchorPane>
